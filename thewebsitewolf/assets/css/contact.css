@@ -1,0 +1,59 @@
+.contact-flex{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    color:#000000;
+}
+.left-contact{
+    width: 50%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 50%;
+    flex: 0 1 50%;
+    position:relative;
+    background-image: repeating-linear-gradient(#000, #212121 50%, #000 80%);
+}
+.left-contact .container{
+    margin:0 auto;
+    padding:1rem;
+}
+.right-contact{
+    width: 50%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 50%;
+    flex: 0 1 50%;
+    position:relative;
+}
+.right-contact .container{
+    width:100%;
+    display:flex;
+    background-color: #dbf8ff;
+}
+.right-contact img{
+    width:100%;
+    height:auto;
+    mix-blend-mode: luminosity;
+    opacity:0.8;
+}
+.contact-top{
+    margin:0 auto;
+    text-align: center;
+}
+.contact-top h1{
+    font-family: "CircularStd";
+    font-weight: bold;
+    font-size: 46px !important;
+    margin-bottom: 10px !important;
+    text-transform: none;
+    margin-top:0;
+    line-height:1.2;
+    color:#fff;
+    outline: none;
+}
+.contact-top h2{
+    font-size: 34px;
+    font-weight: bold;
+    margin:0;
+    line-height:1.2;
+    outline: none;
+    color:#fff;
+}
